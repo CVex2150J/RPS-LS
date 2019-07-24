@@ -1,0 +1,23 @@
+# Choix
+Pierre
+Feuille
+Ciseaux
+Lézard
+Spock
+
+# Actions
+coupe
+recouvre
+casse
+écrase
+empoisonne
+écrabouille
+décapite
+mange
+désavoue
+vaporise
+
+# Messages
+{phrase}. {user} gagne!!!
+{phrase}. {user} perd :(
+{user} et le bot choisissent {user_pick}. Égalité! Personne ne gagne.

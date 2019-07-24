@@ -1,0 +1,7 @@
+﻿var settings = {
+  "classic_command": "!rps",
+  "lizardspock_command": "!rpsls",
+  "localisation_file": "local_en.txt",
+  "reward": 100,
+  "user_cooldown": 0
+};

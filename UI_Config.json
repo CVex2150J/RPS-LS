@@ -1,0 +1,39 @@
+﻿{
+	"output_file": "settings.json",
+	"classic_command": {
+		"type": "textbox",
+		"label": "Classic - command",
+		"value": "",
+		"tooltip": "Command to play the classic \"Rock, Paper, Scissors\".\n\rEmpty to disable",
+		"group": ""
+	},
+	"lizardspock_command": {
+		"type": "textbox",
+		"label": "Lizard, Spock - command",
+		"value": "",
+		"tooltip": "Command to play \"Rock, Paper, Scissors, Lizard, Spock\".\n\rEmpty to disable\n\rHail Sam Kass!",
+		"group": ""
+	},
+	"localisation_file": {
+    	"type": "dropdown",
+		"label": "Localisation",
+		"value": "",
+		"items": ["local_en.txt", "local_fr.txt"],
+		"tooltip": "Name of the file containing localisation\n\rEnglish, Francais\n\nDefault: local_en.txt",
+		"group": ""
+    },
+	"reward": {
+		"type": "numberbox",
+		"label": "Winner gets currency",
+		"value": "",
+		"tooltip": "Amount of Chatbot currency to give when someone wins against the bot.\n\rDefault: 100",
+		"group": ""
+	},
+	"user_cooldown": {
+		"type": "numberbox",
+		"label": "User cooldown",
+		"value": "",
+		"tooltip": "In seconds - Cooldown per user preventing abuse.\n\rDefault: 60",
+		"group": ""
+	}
+}
